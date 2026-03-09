@@ -1,12 +1,11 @@
 import './App.css'
+import AppRoutes from './routes/AppRoutes'
 
 function App() {
   return (
-    <>
-      <div className='w-screen min-h-screen'>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, ex.
-      </div>
-    </>
+    <div className='w-screen min-h-screen'>
+      <AppRoutes />
+    </div>
   )
 }
 
